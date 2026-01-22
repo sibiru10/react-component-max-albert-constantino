@@ -1,0 +1,16 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 50px 20px;
+  min-height: 60vh;
+  flex-wrap: wrap;
+}
+
+/* Ensure the layout works well on the black background */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+nav {
+  background-color: white;
+  padding: 15px 30px;
+  margin: 20px auto; /* Centers the navbar itself */
+  width: fit-content; /* Shrinks navbar to fit content */
+  border-radius: 50px; /* Makes it pill-shaped */
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* White glow */
+}
+
+nav ul {
+  display: flex;       /* Horizontal layout */
+  gap: 40px;           /* Space between items */
+  list-style: none;    /* REMOVES THE DOTS */
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none; /* Removes underline */
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+nav a:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1); /* Slight pop effect */
+}
