@@ -4,7 +4,6 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer>
-      {/* ADD id="contact" HERE 👇 */}
       <div className="footer-contact" id="contact">
         <h3>Contact Us</h3>
         <div className="contact-links">

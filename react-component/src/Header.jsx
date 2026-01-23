@@ -9,5 +9,4 @@ const Header = () => {
   );
 };
 
-// THIS LINE IS MISSING OR WRONG IN YOUR FILE:
 export default Header;

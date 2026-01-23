@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Card from './Card.jsx'; // Ensuring the .jsx extension is there
+import Card from './Card.jsx'; 
 import './Home.css';
 
 const Home = () => {
@@ -11,15 +11,12 @@ const Home = () => {
       <Header />
       <Navbar />
 
-      {/* --- ABOUT SECTION (Linked to Navbar) --- */}
       <section id="about" className="about-section">
         <h2>About This Web</h2>
         <p>
            This web is the GOAT(Greatest Of All Time) web ever created. This is a masterpiece, an art. 
         </p>
       </section>
-      
-      {/* --- NEW CARD CONTENT --- */}
       <main className="main-content">
         <Card 
           title="Best Web in 2026" 
